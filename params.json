@@ -1,0 +1,6 @@
+{
+  "name": "Sabertooth",
+  "tagline": "A lightweight UCI chess engine",
+  "body": "### Big news: first stable release coming soon!\r\n\r\n### What is Sabertooth?\r\nSabertooth is a lightweight and open-source chess engine written in C. It is fully UCI-compatible, for use with your favorite chess GUI. It currently plays at moderate-amateur strength, and improves every day!\r\n\r\n### Is it compatible with my system?\r\nSabertooth works with Mac OS X or any 64-bit flavor of Unix/Linux. It doesn't presently support Windows, but this can be easily fixed (the only incompatible library is `POSIX threads`).\r\n\r\n### How can I get Sabertooth?\r\nDownload it using the link on the left! Since Sabertooth is a UCI engine and doesn't include a GUI, you will need your own. I recommend XBoard, which has an excellent Mac port. \r\n\r\n### What's coming next?\r\nSabertooth doesn't currently support _en passant_, which is the next major release item.\r\n\r\n### Authors and Contributors\r\nSabertooth is developed by Dylan D. Hunn (@dylhunn).",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
