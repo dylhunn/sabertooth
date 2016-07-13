@@ -1,43 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
     <title>Sabertooth by dylhunn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
-    <div id="container">
-      <div class="inner">
+    <section class="page-header">
+      <h1 class="project-name">Sabertooth</h1>
+      <h2 class="project-tagline">A lightweight UCI chess engine</h2>
+      <a href="https://github.com/dylhunn/sabertooth" class="btn">View on GitHub</a>
+      <a href="https://github.com/dylhunn/sabertooth/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/dylhunn/sabertooth/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <header>
-          <h1>Sabertooth</h1>
-          <h2>A lightweight UCI chess engine</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/dylhunn/sabertooth/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/dylhunn/sabertooth/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/dylhunn/sabertooth" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h3>
+    <section class="main-content">
+      <h3>
 <a id="big-news-first-stable-release-coming-soon" class="anchor" href="#big-news-first-stable-release-coming-soon" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Big news: first stable release coming soon!</h3>
 
 <h3>
 <a id="what-is-sabertooth" class="anchor" href="#what-is-sabertooth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is Sabertooth?</h3>
 
-<p>Sabertooth is a lightweight and open-source chess engine written in C. It is fully UCI-compatible, for use with your favorite chess GUI. It currently plays at moderate-amateur strength, and improves every day!</p>
+<p>Sabertooth is a lightweight and open-source chess engine written in C. It is fully UCI-compatible, for use with your favorite chess GUI. It currently plays at moderate-to-amateur strength, and improves every day!</p>
 
 <h3>
 <a id="is-it-compatible-with-my-system" class="anchor" href="#is-it-compatible-with-my-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Is it compatible with my system?</h3>
@@ -47,7 +35,14 @@
 <h3>
 <a id="how-can-i-get-sabertooth" class="anchor" href="#how-can-i-get-sabertooth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How can I get Sabertooth?</h3>
 
-<p>Download it using the link on the left! Since Sabertooth is a UCI engine and doesn't include a GUI, you will need your own. I recommend XBoard, which has an excellent Mac port. </p>
+<p>Download it using the link above! Since Sabertooth is a UCI engine and doesn't include a GUI, you will need your own. I recommend XBoard, which has an excellent Mac port.</p>
+
+<p>First, download the engine from the link above, and put it somewhere you'll remember. Then download the XBoard package for <a href="http://www.open-aurec.com/wbforum/viewtopic.php?f=19&amp;t=53680">Mac</a> or <a href="https://www.gnu.org/software/xboard/#download">Linux</a>.</p>
+
+<p>After you install XBoard, open it, and select from the menu Engine-&gt;Load New First Engine. In the dialog box, point XBoard to the directory of the engine file, like this:
+<img src="https://s31.postimg.org/chlv8zvhn/xboard_saber.png" alt="Select the engine directory and name in XBoard"> </p>
+
+<p>Be sure you have checked the "UCI" box.</p>
 
 <h3>
 <a id="whats-coming-next" class="anchor" href="#whats-coming-next" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What's coming next?</h3>
@@ -58,15 +53,15 @@
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>Sabertooth is developed by Dylan D. Hunn (<a href="https://github.com/dylhunn" class="user-mention">@dylhunn</a>).</p>
-        </section>
 
-        <footer>
-          Sabertooth is maintained by <a href="https://github.com/dylhunn">dylhunn</a><br>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/dylhunn/sabertooth">Sabertooth</a> is maintained by <a href="https://github.com/dylhunn">dylhunn</a>.</span>
 
-        
-      </div>
-    </div>
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
   </body>
 </html>
