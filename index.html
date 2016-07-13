@@ -19,8 +19,8 @@
         <p>A lightweight UCI chess engine</p>
 
         <ul>
-          <li><a href="https://github.com/dylhunn/sabertooth/binary/sabertooth">Download <strong>for Mac</strong></a></li>
-          <li><a href="https://github.com/dylhunn/sabertooth/binary/sabertooth">Download <strong>for Linux</strong></a></li>
+          <li><a href="https://github.com/dylhunn/sabertooth/blob/master/binary/sabertooth">Download <strong>for Mac</strong></a></li>
+          <li><a href="https://github.com/dylhunn/sabertooth/blob/master/binary/sabertooth">Download <strong>for Linux</strong></a></li>
           <li><a href="data:text/plain;charset=utf-8;base64,V2luZG93cyBzdXBwb3J0IGNvbWluZyBzb29uIQ==">Download <strong>for Windows</strong></a></li>
         </ul>
       </header>
@@ -31,7 +31,7 @@
 <h3>
 <a id="what-is-sabertooth" class="anchor" href="#what-is-sabertooth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is Sabertooth?</h3>
 
-<p>Sabertooth is a lightweight and open-source chess engine written in C. It is fully UCI-compatible, for use with your favorite chess GUI. It currently plays at moderate-to-amateur strength, and improves every day!</p>
+<p>Sabertooth is a lightweight and free chess engine written in C. It is fully UCI-compatible, for use with your favorite chess GUI. It currently plays at moderate-to-amateur strength, and improves every day!</p>
 
 <h3>
 <a id="is-it-compatible-with-my-system" class="anchor" href="#is-it-compatible-with-my-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Is it compatible with my system?</h3>
@@ -54,23 +54,26 @@
 <p>Be sure you have checked the "UCI" box.</p>
 
 <h3>
-<a id="release-history" class="anchor" href="#release-history" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Release History</h3>
+<a id="release-history" class="anchor" href="#release-history" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Version History</h3>
 
-<p><em>Announcement.</em> Sabertooth doesn't currently support <em>en passant</em>, which is the next major release item.</p>
+<p><em>Note.</em> Sabertooth doesn't currently support <em>en passant</em>, which is the next major release item.</p>
 
-<p>Version 0.1</p>
+<p>Version 0.1 (alpha - unstable)</p>
 
-<pre><code>- First release!
+<pre><code>
+- First release!
 - Alpha-Beta search with transposition tables and MTD-F
 - MVV-LVA and best-first heuristic
 - Quiescence search
 - UCI Protocol
+- Array-based move generator (excluding en passant)
+- Several known bugs in the alpha: most severely, checkmate positions can crash the engine
 </code></pre>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>Sabertooth is developed by Dylan D. Hunn (<a href="https://github.com/dylhunn" class="user-mention">@dylhunn</a>).</p>
+<p>Sabertooth is developed by Dylan D. Hunn (<a href="https://github.com/dylhunn" class="user-mention">@dylhunn</a>).</p> Please report any bugs you discover to me!
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/dylhunn">dylhunn</a></p>
