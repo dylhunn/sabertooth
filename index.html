@@ -19,9 +19,9 @@
         <p>A lightweight UCI chess engine</p>
 
         <ul>
-          <li><a href="https://github.com/dylhunn/sabertooth/blob/gh-pages/binary/sabertooth?raw=true">Download <strong>for Mac</strong></a></li>
-          <li><a href="https://github.com/dylhunn/sabertooth/blob/gh-pages/binary/sabertooth?raw=true">Download <strong>for Linux</strong></a></li>
-          <li><a href="data:text/plain;charset=utf-8;base64,V2luZG93cyBzdXBwb3J0IGNvbWluZyBzb29uIQ==">Download <strong>for Windows</strong></a></li>
+          <li><a href="https://github.com/dylhunn/sabertooth/blob/gh-pages/binary/sabertooth?raw=true">Download <strong>Mac</strong></a></li>
+          <li><a href="https://github.com/dylhunn/sabertooth/blob/gh-pages/binary/sabertooth?raw=true">Download <strong>Linux</strong></a></li>
+          <li><a href="data:text/plain;charset=utf-8;base64,V2luZG93cyBzdXBwb3J0IGNvbWluZyBzb29uIQ==">Download <strong>Windows</strong></a></li>
         </ul>
       </header>
       <section>
@@ -56,16 +56,25 @@
 <h3>
 <a id="release-history" class="anchor" href="#release-history" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Version History</h3>
 
-<p><em>Note.</em> Sabertooth doesn't currently support <em>en passant</em>, which is the next major release item.</p>
+<p><em>Note.</em> Sabertooth doesn't currently support <em>en passant</em>, which is an impending major release item.</p>
+
+<p><b>Version 0.1.1</b></p>
+
+<pre><code>
+- Bugfix release
+- Patched a severe memory leak
+- Fixed a transposition table race condition
+- Fixed a move generator bug involving castling
+</code></pre>
 
 <p><b>Version 0.1</b></p>
 
 <pre><code>
-- First release!
+- First stable release
 - Alpha-Beta search with transposition tables and MTD-F
 - MVV-LVA and best-first heuristic
 - Quiescence search
-- UCI Protocol
+- UCI Protocol (with rudimentary time managment and FEN parsing)
 - Array-based move generator (excluding en passant)
 </code></pre>
 
